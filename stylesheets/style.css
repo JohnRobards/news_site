@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.image {
+    background-image: url(../imgs/blizz_heading.jpg);
+    height : 700px;
+    width : 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 100, 255);
+}
+
+h2 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.subheadings {
+    font-size: 25px;
+}
+
+.copyright {
+    font-size: 10px;
+    text-align: center;
+}
+
+p.title {
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+hr {
+    border: 2px solid rgb(0, 100, 255);
+}
