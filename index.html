@@ -1,26 +1,69 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blizzard News</title>
     
     
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+   
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/960.css" media="screen">
+    
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-theme.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css" media="screen">
+    
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen">
   </head>
   <body>
-    <h1>Blizzard Fan News Site</h1>
-    <hr />
-    <section class="heading">
-      <p class="image"></p>
-    </section>
+    <div class="jumbotron">
+        <div class="container">
+          <h1 id =topOfPage><a href="http://us.blizzard.com/en-us/" target="_blank">Blizzard</a> Fan News Site</h1>
+          <p><a href="https://en.wikipedia.org/wiki/Blizzard" target="_blank">What is Blizzard?</a></p>
+        </div>
+      </div>  
     
-    <br />
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#topOfPage">Blizzard News</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#Warcraft">Warcraft </a></li>
+          <li><a href="#Hearthstone">Hearthstone</a></li>
+          <li><a href="#Starcraft">Starcraft</a></li>
+          <li><a href="#Diablo">Diablo</a></li>
+          <li><a href="#General">General News</a></li>
+          
+        </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    
+    <hr />
+    <div class="col-xs-12 col-md-12">
+            <img class="img" src="imgs/blizz_heading_resized.jpg">
+    </div> <!-- col -->
+    
+    <hr />
+    
+    <div class=container>
     <h2>The number one place for up to date information on all things related to Blizzard Entertainment.</h2>
-    <p>For anyone new to the site, it basically serves as a catch all for some of the biggest blizzard news relating to their company and their different
+    <p class="content">For anyone new to the site, it basically serves as a catch all for some of the biggest blizzard news relating to their company and their different
     games. The site asks a question, gives an answer to this question, usually in the writer's opinion with some facts from around the internet to back it up,
     and then we link you to another site that provides some good discusion on the same subject in case you're still curious.</p>
     <br />
@@ -28,11 +71,17 @@
     <section class="main-content container_16">
     
     
-    <div class="box grid_12">
-      <h3 class="subheadings">Warcraft</h3>
+    <div>
+      <h3 class="subheadings" id = "Warcraft">Warcraft</h3>
     </div>
     
-    <div class="box grid_4">
+    
+    <div class="col-xs-4 col-md-12">
+            <img class="img" src="imgs/Warcraft.jpg">
+    </div> <!-- col -->
+    
+    
+    <div class="row">
       <p class="title">Will World of Warcraft Die Soon?</p>
       <p class="content">Every new expansion for Blizzard's titan MMO, WoW, ends up with the game losing more and more players. The trend seems to be
       that when a new expansion launches, the subscription numbers go up due to the excitement, and then after a few months people feel like they've experienced all that they
@@ -44,7 +93,7 @@
       <p class="link"><a href="http://thenoob.net/post/gaming/pc-gaming/will-world-warcraft-ever-die/" target="_blank">Read More Info</a></p>
       
     </div>
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Will Legion Make it Worthwhile to go Back to WoW? </p>
       <p class="content">Possibly? It really depends on why you left WoW in the first place. If you felt like you did everything in WoD, and you just didn't
       have any more content, then yes, Legion will introduce more content and thus be a great time for you to come back. However if you didn't like the direction WoW
@@ -55,7 +104,7 @@
       
     </div>
     
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Will we Ever See a Warcraft IV?</p>
       <p class="content">Will we ever? Probably. Will it be within the next decade? Maybe. Are they working on it right now? Nothing indicates that they are,
       sadly. As an avid Warcraft III player, I'd love to see another RTS set in the warcraft universe with the custom map integration that III had. Blizzard
@@ -67,16 +116,19 @@
     </div>
     
     
-    <div class="box grid_12">
       <hr />
+    
+    
+    <div>
+      <h3 class="subheadings" id = "Hearthstone">Hearthstone</h3>
     </div>
     
-    <div class="box grid_12">
-      <h3 class="subheadings">Hearthstone</h3>
-    </div>
+    <div class="col-xs-4 col-md-12">
+            <img class="img" src="imgs/Hearthstone_Paladin.jpg">
+    </div> <!-- col -->
     
-    
-    <div class="box grid_4">
+    <div class="row">
+      
       <p class="title">What's the Latest News on the Old Gods Hearthstone Expansion?</p>
       <p class="content">The Old Gods Expanions will be Hearthstone's third full card expansion, and it's themed around the Old gods corrupting cards
       from previous sets and giving them new ablities and stats. Of course there will be original cards, but the main focus seems to be around showcasing
@@ -86,7 +138,7 @@
       <p class="link"><a href="http://us.battle.net/hearthstone/en/blog/20058061/heed-the-whispers-of-the-old-gods-3-11-2016" target="_blank">Read More Info</a></p>
       
     </div>
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Blizzard has Finally Released more Deck Slots, What Features Will they Add Next?</p>
       <p class="content">It's hard to say as Blizzard tends to not let the public know what they're working on until they're sure that it's going to be
       added and almost finished and with the next expansion coming up, Blizzard has their hands full finishing that up. In the past, Blizzard has expressed interest
@@ -96,7 +148,7 @@
       
     </div>
     
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Which Cards are Prime Candidates for Nerfs in the Upcoming Update in May?</p>
       <p class="content">Blizzard has stated that they are examining between 2-20 cards for nerfs in the upcoming update. They've cited Big Game Hunter,
       Savage Roar, Ancient of Lore, and Innvervate as very likely cards to receive a nerf, but other than that it's hard to say. They'll likely nerf some
@@ -107,15 +159,18 @@
     </div>
     
     
-    <div class="box grid_12">
+   
       <hr />
-    </div>
     
-   <div class="box grid_12">
-      <h3 class="subheadings">Starcraft</h3>
+   <div>
+      <h3 class="subheadings" id = "Starcraft">Starcraft</h3>
     </div>
    
-    <div class="box grid_4">
+   <div class="col-xs-4 col-md-12">
+            <img class="img" src="imgs/Starcraft.jpg">
+    </div> <!-- col -->
+   
+    <div class="row">
       <p class="title">Where Does Starcraft Go Now?</p>
       <p class="content">Starcraft II had it's final expansion release recently in the form of Legacy of the Void and with it Starcraft II's development cycle comes to an end.
       Is Blizzard's plan to release a Starcraft III in the near future or something else? They've talked about releasing a Nova Covert Ops story in
@@ -125,7 +180,7 @@
       <p class="link"><a href="http://fandom.wikia.com/articles/where-does-starcraft-go-from-here" target="_blank">Read More Info</a></p>
       
     </div>
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Does Starcraft II Have Any Chance as an Esport?</p>
       <p class="content">It doesn't have a very bright future in all honesty. Starcraft II's number have been going down ever since it's release and Blizzard
       is doing fairly little to support the competitive scene. Sadly Starcraft II doesn't seem to be on the come up like the first one was.</p>
@@ -133,7 +188,7 @@
       
     </div>
     
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Is Blizzard Happy with Starcraft II?</p>
       <p class="content">They seem to be, considering that they've release two expansions for it and are planning on continuing to update it and release
       more dlc in the form of Nova Covert Ops. They've fixed a lot of issues with Starcraft 2 since it's release and it shows that they really care about this game.</p>
@@ -141,22 +196,24 @@
       
     </div>
     
-     <div class="box grid_12">
       <hr />
-    </div>
     
     <div class="box grid_12">
-      <h3 class="subheadings">Diablo</h3>
+      <h3 class="subheadings" id = "Diablo">Diablo</h3>
     </div>
     
-    <div class="box grid_4">
+    <div class="col-xs-4 col-md-12">
+            <img class="img" src="imgs/Diablo.jpg">
+    </div> <!-- col -->
+    
+    <div class="row">
       <p class="title">Will we Recieve any more expansions for Diablo III?</p>
       <p class="content">All signs point towards yes, as Reaper of Souls was very successful at brining in new and old players. Diablo III just seems to be getting
       better as time goes on, so the next expansion is very exciting. Expect an official announcements at Blizzcon in November.</p>
       <p class="link"><a href="http://www.ign.com/articles/2015/08/10/new-diablo-3-expansion-hinted-at-by-job-listing" target="_blank">Read More Info</a></p>
       
     </div>
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Has Diablo III Lived up to Expectations of Diablo II?</p>
       <p class="content">Hardcore Diablo II fans may say no, however Diablo III is a great game in it's own right. It may have taken a slightly different
       approach than Diablo II did, but Diablo III is no less fun. A lot of time has passed since 2000 and Diablo II's release, and game design has come a long way, so
@@ -166,7 +223,7 @@
       
     </div>
     
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Will we Ever See a Warcraft IV?</p>
       <p class="content">Will we ever? Probably. Will it be within the next decade? Maybe. Are they working on it right now? Nothing indicates that they are,
       sadly. As an avid Warcraft III player, I'd love to see another RTS set in the warcraft universe with the custom map integration that III had. Blizzard
@@ -178,16 +235,15 @@
     </div>
     
     
-    <div class="box grid_12">
+   
       <hr />
-    </div>
     
      
    <div class="box grid_12">
-      <h3 class="subheadings">General News</h3>
+      <h3 class="subheadings" id = "General">General News</h3>
     </div>
     
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">What does the WoW movie mean for Blizzard expanding into other media?</p>
       <p class="content">Blizzard is considering opening up a new movie studio if the WoW movie is successful enough, where they'll be able to produce
       movies for all of their franchises in beautiful Blizzard CGI. As a person who loves Blizzard's animation team, I strongly encourage everyone to go see
@@ -195,7 +251,7 @@
       <p class="link"><a href="https://en.wikipedia.org/wiki/Warcraft_(film)" target="_blank">Read More Info</a></p>
       
     </div>
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">Has Heroes of the Storm been a success?</p>
       <p class="content">It may not be as successful as League of Legends or DOTA, but Heroes of the Storm has definetely not been a flop either. There
       are over 20 million registered players for Heroes of the storm so it's fairly popular, to say the least. As far as Blizzard standards go though, it's been a bit underwhelming
@@ -205,7 +261,7 @@
       
     </div>
     
-    <div class="box grid_4">
+    <div class="row">
       <p class="title">What does Overwatch mean for other Blizzard products?</p>
       <p class="content">It doesn't really mean anything for Blizzard's other products. Blizzard has been trying their hand at basically making their own version
       of other very popular games that make a lot of money recently, and this is basically their version of TF2. It's kind of sad to see Blizzard trying
@@ -216,14 +272,19 @@
     </div>
     
     
-    <div class="box grid_12">
+    
       <hr />
-    </div>
     
     </section>
     
     
     <p class="copyright">All images are property of Blizzard Entertainment.</p>
     <p class="copyright">Their use here is merely to evoke a better Blizzard like fan theme, permitted via their TOS.</p>
+    
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>

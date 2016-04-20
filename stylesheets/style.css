@@ -1,16 +1,33 @@
 body {
     background-color: black;
+    padding-top: 70px;
 }
 
-.image {
-    background-image: url(../imgs/blizz_heading.jpg);
-    height : 700px;
-    width : 100%;
+div {
+    background-color: black;
+}
+
+.HearthstoneBox {
+    background-image: url(../imgs/Hearthstone_Paladin.jpg);
+}
+
+.jumbotron {
+    background-color: black;
     text-align: center;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+
+.img {
+    vertical-align: middle;
+    height : 100%;
+    width : 100%;
     background-repeat: no-repeat;
     background-size: 100%;
-    color: white;
+    margin-bottom: 5px;
 }
+
 
 h1 {
     text-align: center;
@@ -26,12 +43,17 @@ h2 {
     font-size: 25px;
 }
 
+.content {
+    font-size: 14px;
+}
+
 .copyright {
     font-size: 10px;
     text-align: center;
 }
 
 p.title {
+    font-size: 18px;
     text-align: center;
     color: rgb(200, 200, 200);
 }
