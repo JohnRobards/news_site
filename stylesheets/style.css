@@ -1,6 +1,8 @@
 body {
     background-color: black;
     padding-top: 70px;
+    color: rgb(150, 150, 150);
+    font-family: "Verdana", Times, sans-serif;
 }
 
 div {
@@ -16,6 +18,8 @@ div {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 0px;
+    color: rgb(225, 225, 225);
+    font-family: "Courier New", Times, monospace;
 }
 
 
@@ -52,10 +56,15 @@ h2 {
     text-align: center;
 }
 
-p.title {
+.title {
     font-size: 18px;
     text-align: center;
-    color: rgb(200, 200, 200);
+    color: rgb(225, 225, 225);
+}
+
+a:link, a:visited {
+    color: rgb(0, 100, 250);
+    text-align: center;
 }
 
 hr {
